@@ -22,6 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 15. Install Angular Material: ng add @angular/material / ng build https://material.angular.io/
 
+20. Add "src/api" to angular.json under "assets"
 
 
 ## Development server

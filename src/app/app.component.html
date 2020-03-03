@@ -1,3 +1,8 @@
-<h2>List of users</h2>
+<nav>
+  <button mat-button [routerLink]="['/users']">Users</button>
+  <button mat-button [routerLink]="['/help']">Help</button>
+</nav>
 
-<app-user></app-user>
+<div>
+  <router-outlet></router-outlet>
+</div>
