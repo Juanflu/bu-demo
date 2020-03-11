@@ -1,0 +1,7 @@
+<mat-card class="link-card" *ngFor="let link of links">
+    <mat-card-header>
+        <div mat-card-avatar class="link-header-image" [ngStyle]="{ 'background-image': 'url(' + link.image + ')'}"></div>
+        <mat-card-title>{{link.title}}</mat-card-title>
+        <mat-card-subtitle><a href="{{link.link}}" target="new">{{link.link}}</a></mat-card-subtitle>
+    </mat-card-header>
+</mat-card>
