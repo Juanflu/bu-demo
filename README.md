@@ -227,6 +227,10 @@ Angular makes use of observables as an interface to handle a variety of common a
 - The Router and Forms modules use observables to listen for and respond to user-input events.
 
 
+# Presentation
+https://docs.google.com/presentation/d/1n0dt5kXRUH3Bg05dChkmsjoSS0bgSQT16pXoNX7gAPI/edit?ts=5e69455e#slide=id.p
+
+
 # Further reading
 
 1. [Angular: The Big Picture](https://app.pluralsight.com/library/courses/ng-big-picture)
