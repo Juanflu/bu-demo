@@ -10,14 +10,14 @@ import { MatCardModule } from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserListComponent } from './users/user-list/user-list.component';
-import { UserDetailComponent } from './users/user-detail/user-detail.component';
+// TODO
 import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    UserDetailComponent,
+    // TODO
     HelpComponent
   ],
   imports: [
