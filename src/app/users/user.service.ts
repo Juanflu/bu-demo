@@ -13,7 +13,7 @@ export class UserService {
   private usersUrl = 'api/users/users.json';
 
   constructor(private http: HttpClient) { }
-  
+
   getUsers(): Observable<IUser[]> {
     return this.http.get<IUser[]>(this.usersUrl);
   }
