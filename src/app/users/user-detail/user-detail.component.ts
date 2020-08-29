@@ -15,8 +15,8 @@ export class UserDetailComponent implements OnInit {
   errorMessage: '';
 
   constructor(private route: ActivatedRoute,
-    private router: Router,
-    private userService: UserService) { }
+              private router: Router,
+              private userService: UserService) { }
 
   ngOnInit(): void {
     const param = this.route.snapshot.paramMap.get('id');
