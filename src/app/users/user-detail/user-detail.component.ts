@@ -3,8 +3,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { UserService } from '../user.service';
 import { IUser } from '../user';
 
-
-
 @Component({
   templateUrl: './user-detail.component.html',
   styleUrls: ['./user-detail.component.scss']

@@ -8,7 +8,7 @@ import { IUser } from '../user';
 })
 
 export class UserListComponent implements OnInit {
-  
+
   errorMessage = '';
   users: IUser[] = [];
 
