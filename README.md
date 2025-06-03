@@ -6,7 +6,7 @@ Before you begin, make sure your development environment includes `Node.js®` an
 
 ## Visual Studio Code
 1. Installation: [https://code.visualstudio.com/]
-2. Recomended Extensions: 
+2. Recommended Extensions: 
         Angular TypeScript Snippets for VS Code
         Angular Language Service
 
